@@ -115,7 +115,7 @@ filetype plugin indent on    " required
 " Vundle Plugins related {{{
 "PDV--phpDocumentor-for-Vim{{{
 noremap <leader>cd :call PhpDocSingle()<CR>
-let g:pdv_cfg_Author = "qiuxie <qiuxie@tencent.com>"
+let g:pdv_cfg_Author = "xx <xx@xx.com>"
 "}}}
 "nerdcommenter{{{
 let g:NERDSpaceDelims=1
