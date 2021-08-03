@@ -1,0 +1,37 @@
+{
+    "go.gopath": "/home/cooperswang/go/",
+    "go.autocompleteUnimportedPackages": true,
+    "go.gotoSymbol.includeGoroot": true,
+    "go.gotoSymbol.includeImports": true,
+    "go.inferGopath": false,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.installDependenciesWhenBuilding": true,
+    "go.testFlags": [
+        "-v",
+        "-count=1",
+        "-gcflags=all=-l"
+    ],
+    "go.lintTool": "golangci-lint",
+    "remote.SSH.connectTimeout": 5,
+    "go.docsTool": "gogetdoc",
+    "go.formatTool": "gofmt",
+    "go.useLanguageServer": true,
+    "go.toolsManagement.checkForUpdates": "local",
+    "search.exclude": {
+        "**/*.git": true
+    },
+    "remote.autoForwardPortsSource": "output",
+    "git.autoStash": true,
+    "editor.tabSize": 2,
+    "commentTranslate.multiLineMerge": true,
+    "commentTranslate.targetLanguage": "zh-CN",
+    "commentTranslate.concise": true,
+    "editor.rulers": [
+        0,
+        10
+    ]
+}
+
+使用：
+go docs : go getdoc
+Go: Use Language Server: use
