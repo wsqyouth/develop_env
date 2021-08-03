@@ -26,10 +26,12 @@
     "commentTranslate.multiLineMerge": true,
     "commentTranslate.targetLanguage": "zh-CN",
     "commentTranslate.concise": true,
-    "editor.rulers": [
-        0,
-        10
-    ]
+    "workbench.colorTheme": "Default Dark+",
+    "editor.fontSize": 16,
+    "files.exclude": {
+        ".git": true
+    },
+    "files.defaultLanguage": "log"
 }
 
 使用：
