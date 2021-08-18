@@ -117,17 +117,6 @@ autocmd BufWritePost * GitGutter
 
 -----
 
-Name	Last Update	
-Last Commit
-  
-df957606 - update README.md
-History
-.vimrc
-about a year ago	init
-README.md
-about a year ago	update README.md
-README.md
-.vimrc
 需要 vim 8 支持，支持 rust 和 go 语言，使用 vim-plug 管理。
 
 主题配色 onedark： https://github.com/joshdick/onedark.vim
@@ -141,3 +130,4 @@ go 语言自动补全还需要执行下面操作
 
 # 代码自动补全，安装完插件还需要额外配置才可以使用
 cd ~/.vim/plugged/YouCompleteMe && ./install.py --go-completer
+
