@@ -1,5 +1,12 @@
 摘抄自：https://gist.github.com/ryerh/14b7c24dfd623ef8edc7
 
+问题解决：
+I still don't understand how to resize panes. The default prefix is C-b, then what?
+
+" PREFIX : resize-pane -R (Resizes the current pane right) " , I don't get it. Can anyone help? :)
+---
+This confused me too. You need to do C-b then a colon. This will bring up a bar where you can write resize-panes with whatever flags you want. Good luck!
+
 -----
 
 注意：本文内容适用于 Tmux 2.3 及以上的版本，但是绝大部分的特性低版本也都适用，鼠标支持、VI 模式、插件管理在低版本可能会与本文不兼容。
