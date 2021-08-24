@@ -1,5 +1,6 @@
 摘抄自：https://gist.github.com/ryerh/14b7c24dfd623ef8edc7
-
+https://gist.github.com/MohamedAlaa/2961058  [下面的问题精彩极了]
+  
 问题解决1：
 I still don't understand how to resize panes. The default prefix is C-b, then what?
 
@@ -8,7 +9,7 @@ This confused me too. You need to do C-b then a colon. This will bring up a bar 
 
 ---
 
-问题2：
+问题解决2：
 Reload the tmux config file from shell:
 
 $ tmux source-file ~/.tmux.conf
