@@ -1,0 +1,14 @@
+git config --global user.name "wsqyouth"
+git config --global user.email 2631520922@qq.com
+  
+ssh-keygen -t rsa -C "2631520922@qq.com"
+ssh-add ~/.ssh/id_rsa
+cat /root/.ssh/id_rsa.pub
+
+之后:在账户选项中选择 “Settings”–>“SSH and GPG keys”–>“New SSH key”，然后打开之前新生成的id_rsa.pub文件，将密钥复制后填写到账户中
+
+验证key:
+使用 ssh -T git@github.com 对ssh key 进行验证
+=> Hi wsqyouth! You've successfully authenticated, but GitHub does not provide shell access.
+
+
