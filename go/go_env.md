@@ -1,7 +1,14 @@
 ## 目标
   在一台新环境搭建vim-go环境，主要参考geek孔令飞资料
+  总结：
+1. Linux 服务器申请和配置（主要是创建going账号）
+2. 手动安装Git、Golang
+3. 安装 protoc 和 protoc-gen-go
+4. 安装 nvim 和 spaceVIM
+
+
 ### 一、root添加普通用户
-  
+第一步  
 # useradd coopers # 创建 going 用户，通过 going 用户登录开发机进行开发
 # passwd coopers # 设置密码
 Changing password for user going.
@@ -10,8 +17,8 @@ Retype new password:
 passwd: all authentication tokens updated successfully.
 
 第二步，添加 sudoers
-# sed -i '/^root.*ALL=(ALL).*ALL/a\going\tALL=(ALL) \tALL' /etc/sudoers
-第三步，用新的用户名（going）和密码登录 Linux 服务器。这一步也可以验证普通用户是否创建成功。
+# sed -i '/^root.*ALL=(ALL).*ALL/a\coopers\tALL=(ALL) \tALL' /etc/sudoers
+第三步，用新的用户名（coopers）和密码登录 Linux 服务器。这一步也可以验证普通用户是否创建成功。
 通过ssh登录
 /usr/local/bin/sshpass -f /Users/cooperswang/code/env/centos_159.75.38.3 ssh -p22 coopers@159.75.38.3
 
