@@ -188,7 +188,8 @@ crtl P 自动补全上一个选项
 
 第五步，Go 工具安装。
 
-SpaceVim 会用到一些 Go 工具，比如在函数跳转时会用到 guru、godef 工具，在格式化时会用到 goimports，所以我们也需要安装这些工具。安装方法有 2 种：Vim 底线命令安装：vi test.go，然后执行：:GoInstallBinaries 安装。拷贝工具：直接将整理好的工具文件拷贝到$GOPATH/bin 目录下
+SpaceVim 会用到一些 Go 工具，比如在函数跳转时会用到 guru、godef 工具，在格式化时会用到 goimports，所以我们也需要安装这些工具。
+安装方法有 2 种：Vim 底线命令安装：vi test.go，然后执行：:GoInstallBinaries 安装。拷贝工具：直接将整理好的工具文件拷贝到$GOPATH/bin 目录下
 
 $ cd /tmp
 $ wget https://marmotedu-1254073058.cos.ap-beijing.myqcloud.com/tools/gotools-for-spacevim.tgz
