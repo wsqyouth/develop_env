@@ -1,0 +1,9 @@
+这里以scp方式为例
+
+1,从服务器上下载：
+scp root@serverIP:/path/文件(服务器路径) /path(Mac路径)
+scp -P 22  coopers@159.75.38.33:/home/coopers/mnt/wsq.txt /Users/cooperswang/code/mnt
+
+2,本地上传到服务器：
+scp /path/filename(Mac路径) root@serverIP:/path(服务器路径)
+scp -P 22   /Users/cooperswang/Downloads/klaytang_mini_redis-master.zip coopers@159.75.38.33:/home/coopers/mnt
