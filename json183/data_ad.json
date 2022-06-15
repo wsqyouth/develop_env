@@ -1,0 +1,81 @@
+{
+  "batch_request_spec": [
+    {
+      "relative_path": "v1.1/adgroups/add",
+      "body": {
+        "account_id": "20458",
+        "promoted_object_type": "PROMOTED_OBJECT_TYPE_LINK_WECHAT",
+        "campaign_id": "4123144329",
+        "adgroup_name": "广告-20220527-112132-上海市等-核心-全部-14至65岁以上",
+        "begin_date": "2022-05-29",
+        "end_date": "2022-06-02",
+        "first_day_begin_time": "00:00:00",
+        "last_day_end_time": "23:59:59",
+        "time_series": "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+        "daily_budget": "1000000",
+        "site_set": [
+          "SITE_SET_MOMENTS"
+        ],
+        "targeting": {
+          "age": [
+            {
+              "min": 14,
+              "max": 66
+            }
+          ],
+          "geo_location": {
+            "location_types": [
+              "LIVE_IN"
+            ],
+            "regions": [
+              310000,
+              110000
+            ]
+          },
+          "device_brand_model": {},
+          "behavior_or_interest": {
+            "interest": {
+              "category_id_list": [
+                197
+              ]
+            }
+          },
+          "weapp_version": {}
+        },
+        "bid_amount": "15000",
+        "bid_mode": "BID_MODE_OCPM",
+        "contract_type": "CONTRACT_TYPE_NORMAL",
+        "optimization_goal": "OPTIMIZATIONGOAL_CLICK",
+        "bid_strategy": "BID_STRATEGY_AVERAGE_COST",
+        "configured_status": "AD_STATUS_NORMAL",
+        "auto_acquisition_enabled": "false",
+        "cold_start_audience": [],
+        "expand_enabled": "false",
+        "pos_type": "999",
+        "pre_creative_type": "1",
+        "city_level": "1",
+        "mp_config": {
+          "pre_adcreative_template_id": 0,
+          "time_type": 0,
+          "is_sdpa_commodity": 0,
+          "sdpa_landing_page_type": "NO_LINK",
+          "is_poi_ad": 0,
+          "is_batch_create_ad": 0,
+          "weapp_version": [
+            "EMPTY_OPTION",
+            "EMPTY_OPTION",
+            "EMPTY_OPTION"
+          ],
+          "selected_ocpm_item": {
+            "bat_desc": "元/千次曝光",
+            "bo_desc": "点击",
+            "bid_objective": 2
+          },
+          "interest_keyword_detail_list": [],
+          "behavior_keyword_detail_list": []
+        },
+        "poi_list": []
+      }
+    }
+  ]
+}

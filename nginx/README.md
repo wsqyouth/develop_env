@@ -25,6 +25,10 @@ nginx -s stop ：快速关闭Nginx，可能不保存相关信息，并迅速终�
 ⚫ nginx -s reload ：因改变了Nginx相关配置，需要重新加载配置而重载。
 
 
+博客重启:
+pidof goblog 查看进程id
+kill -9 进程id
+nohup ./goblog > wsq.log
 ---
 这里要特别注意一下，安全组和防火墙一定要开发80端口，不让的话会被拦截。
 
